@@ -1,0 +1,16 @@
+{
+  "name": "network-analysis-components",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Network Analysis UI components and Bento widgets",
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.7.0"
+  }
+}

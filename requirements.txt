@@ -1,0 +1,20 @@
+# Network Monitoring & Security Analyzer — Python dependencies
+# Target: Kali Linux / Ubuntu Linux with Python 3.9+
+
+# ── Core ───────────────────────────────────────────────────────────────────
+flask>=3.0.0
+
+# ── Packet capture ─────────────────────────────────────────────────────────
+scapy>=2.5.0
+
+# ── Network interface enumeration (optional, psutil is used across all platforms) ──
+# netifaces>=0.11.0; sys_platform == "linux"
+
+# ── System info (fallback interface listing) ──────────────────────────────
+psutil>=5.9.0
+
+# ── Standard library extras (included with Python, listed for reference) ──
+# sqlite3  — built-in
+# threading — built-in
+# csv       — built-in
+# json      — built-in
